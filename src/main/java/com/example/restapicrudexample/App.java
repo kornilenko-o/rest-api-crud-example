@@ -1,5 +1,7 @@
 package com.example.restapicrudexample;
 
+import com.example.restapicrudexample.Models.Item;
+import com.example.restapicrudexample.Repositories.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

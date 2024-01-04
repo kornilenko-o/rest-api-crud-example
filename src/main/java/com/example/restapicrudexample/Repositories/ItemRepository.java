@@ -1,5 +1,6 @@
-package com.example.restapicrudexample;
+package com.example.restapicrudexample.Repositories;
 
+import com.example.restapicrudexample.Models.Item;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ItemRepository  extends JpaRepository <Item, Long> {

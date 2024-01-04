@@ -1,5 +1,8 @@
-package com.example.restapicrudexample;
+package com.example.restapicrudexample.Controllers;
 
+import com.example.restapicrudexample.Utils.ItemNotFoundException;
+import com.example.restapicrudexample.Repositories.ItemRepository;
+import com.example.restapicrudexample.Models.Item;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
