@@ -1,4 +1,4 @@
-package com.example.restapicrudexample.Utils;
+package com.example.restapicrudexample.utils;
 
 public class ItemNotFoundException extends RuntimeException{
     private Long id;
