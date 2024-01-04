@@ -1,6 +1,6 @@
-package com.example.restapicrudexample.config;
+package com.example.restapicrudexample.exeptions;
 
-import com.example.restapicrudexample.utils.ItemNotFoundException;
+import com.example.restapicrudexample.exeptions.ItemNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

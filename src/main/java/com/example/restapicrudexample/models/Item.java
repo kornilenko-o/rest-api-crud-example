@@ -1,4 +1,4 @@
-package com.example.restapicrudexample.codels;
+package com.example.restapicrudexample.models;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
